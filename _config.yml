@@ -5,8 +5,6 @@ url:              "https://javanan.github.io/" # 域名
 signoff:          "javanan" # Your name
 facebook_appid:   #facebook_id
 share:            true
-# Disqus settings（https://disqus.com/）
-disqus_username: qiubaiying
 # 分页
 paginate: 15
 paginate_path: "liberxuepage:num"
