@@ -4,8 +4,9 @@ description:      "SLife Full Stack独立开发者|欢迎来到 SLife「角落�
 url:              "https://javanan.github.io/" # 域名
 signoff:          "javanan" # Your name
 facebook_appid:   #facebook_id
-google_analytics: UA-101222464-1
-share:            true 
+share:            true
+# Disqus settings（https://disqus.com/）
+disqus_username: qiubaiying
 # 分页
 paginate: 15
 paginate_path: "liberxuepage:num"
