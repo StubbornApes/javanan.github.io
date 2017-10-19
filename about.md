@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: 关于SLife
-description: "关于LiberXue博客角落自述"
+description: "关于SLife博客角落自述"
 tags: 
 - SLife
 - 简述
