@@ -1,8 +1,8 @@
 ---
 layout: blog
 banana: true
-category: jquery Ajax标准写法
-title: jquery Ajax标准写法
+category: jqueryAjax标准写法
+title: jqueryAjax标准写法
 tags:
 - Ajax
 - jquery
