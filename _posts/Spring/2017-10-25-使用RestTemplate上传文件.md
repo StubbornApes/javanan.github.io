@@ -7,7 +7,7 @@ title: 使用RestTemplate上传文件
 tags:
 - RestTemplate
 - 上传文件
-date:   2017-10-25 10:25:54
+date: 2017-10-25 10:25:54
 ---
 
 最近在用Spring Cloud，搭建微服务应用，其中一个微服务是把文件上传到七牛，其他的文件上传都是通过他。但是在使用Fegin调用该服务的接口的时候，一直有问题，恩--------先用RestTemplate试试
