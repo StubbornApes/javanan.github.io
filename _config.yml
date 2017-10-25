@@ -1,6 +1,6 @@
 # ----------- CONFIGURABLE START -----------
-title:            "SLife|FullStack|独立开发者|jekyll blog|GitHub blog"
-description:      "SLife Full Stack独立开发者|欢迎来到 SLife「角落」侃侃理想、谈谈人生、敲敲代码。"
+title:            "SLife | blog"
+description:      "编程 | Java | Linux | SLife | Spring | Spring Cloud | Spring Boot"
 url:              "https://javanan.github.io/" # 域名
 signoff:          "javanan" # Your name
 facebook_appid:   #facebook_id
