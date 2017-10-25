@@ -24,8 +24,7 @@
                         <img src="{{ site.url }}/style/images/logo-liberxue.png" title="访问 SLife_blog"
                              data-hover="SLife_blog" alt="SLife_blog"/> </a>
                     <div class="info-text">
-                        <p>Theme is <a href="http://www.guan2ye.com/2017/08/03/Jekyllthemes.html"
-                                       title="访问 Jekyll 主题" data-hover="Jekyll liberxue" target="_blank">SLife
+                        <p>Theme is <a href="http://www.guan2ye.com/2017/08/03/Jekyllthemes.html" title="访问 Jekyll 主题" data-hover="Jekyll liberxue" target="_blank">SLife
                             SLife</a> by <a href="http://www.guan2ye.com/about" target="_blank">SLife</a></p>
                         <p>Powered by <a href="{{ site.url }}/tags/#SLife" title="SLife" data-hover="SLife"
                                          target="_blank" rel="nofollow">SLife</a></p>
@@ -40,8 +39,7 @@
                 <!--置顶-->
                 {% for post in site.posts limit:15 %}
                 {% if post.istop %}
-                <li><a href="{{ post.url }}" title="访问 {{ post.title }}" data-hover="{{ post.title }}">{{ post.title
-                    }}</a></li>
+                <li><a href="{{ post.url }}" title="访问 {{ post.title }}" data-hover="{{ post.title }}">{{ post.title}}</a></li>
                 {% endif %}
                 {% endfor %}
                 <!--置顶-->
@@ -49,9 +47,9 @@
             <div class="meta-item meta-comments">
                 <h3 class="meta-title">最新文章</h3>
                 {% for post in site.posts limit:14 %}
-                <!--{% if post.book %}-->
+
                 <li><a href="{{ post.url }}" title="访问 {{ post.title }}" data-hover="{{ post.title }}">{{ post.title}}</a></li>
-             <!--   {% endif %}-->
+
                 {% endfor %}
             </div>
         </div>
