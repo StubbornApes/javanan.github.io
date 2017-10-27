@@ -1,6 +1,7 @@
 ---
 layout: blog
-banana: true
+istop: true
+jishu: true
 category: jqueryAjax标准写法
 title: jqueryAjax标准写法
 tags:
