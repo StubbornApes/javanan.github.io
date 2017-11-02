@@ -3,7 +3,7 @@ layout: blog
 istop: true
 jishu: true
 category: Spring Cloud
-background-image:
+background-image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509630308801&di=5e84d7097f60d983314a08c27357e730&imgtype=0&src=http%3A%2F%2Fimg.educity.cn%2Fimg_10%2F263%2F2014010504%2F17804043904.jpg
 title: Spring Cloud连载（7）Ribbon负载均衡器
 tags:
 - 阿里云
@@ -16,6 +16,8 @@ tags:
 - 建站
 - 云服务器
 - Spring Cloud
+- Ribbon
+- 负载均衡
 date:   2017-11-01 11:24:40
 ---
 

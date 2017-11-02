@@ -3,7 +3,7 @@ layout: blog
 istop: true
 jishu: true
 category: Spring Cloud
-background-image:
+background-image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509630251328&di=c1a6a987c6b0f91b91b213c07a300667&imgtype=0&src=http%3A%2F%2Fwww.51wendang.com%2Fpic%2Fbaf2561926f3c9faf69c2b4d%2F2-355-png_6_0_0_0_0_0_0_892.979_1262.879-893-0-0-893.jpg
 title: Spring Cloud连载（13）Feign第三方注解与注解翻译器
 tags:
 - 阿里云
@@ -16,6 +16,7 @@ tags:
 - 建站
 - 云服务器
 - Spring Cloud
+- Feign
 date:   2017-11-01 11:25:52
 ---
 

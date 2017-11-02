@@ -3,7 +3,7 @@ layout: blog
 istop: true
 jishu: true
 category: Spring Cloud
-background-image:
+background-image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509630308802&di=f0523fd8eadfe2d5cd6316499ce13e0c&imgtype=0&src=http%3A%2F%2Fwww.uml.org.cn%2Fzjjs%2Fimages%2F201703290502.jpg
 title: Spring Cloud连载（9）RestTemplate的负载均衡原理
 tags:
 - 阿里云
@@ -16,6 +16,8 @@ tags:
 - 建站
 - 云服务器
 - Spring Cloud
+- RestTemplate
+- 负载均衡
 date:   2017-11-01 11:25:10
 ---
 

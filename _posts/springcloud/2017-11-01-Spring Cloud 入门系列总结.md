@@ -3,7 +3,7 @@ layout: blog
 istop: true
 jishu: true
 category: Spring Cloud
-background-image:
+background-image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509630308794&di=df649bf6213bd16a688fc5532322dfc4&imgtype=0&src=http%3A%2F%2Fimages2015.cnblogs.com%2Fblog%2F73868%2F201605%2F73868-20160520102234951-349638959.jpg
 title: Spring Cloud系列总结
 tags:
 - 阿里云
@@ -16,6 +16,7 @@ tags:
 - 建站
 - 云服务器
 - Spring Cloud
+- Spring Cloud 入门
 date:   2017-11-01 11:26:54
 ---
 

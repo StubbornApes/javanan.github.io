@@ -3,7 +3,7 @@ layout: blog
 istop: true
 jishu: true
 category: Spring Cloud
-background-image:
+background-image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509630308804&di=f7760a3abbdb1efb8837ddfc4dcc6453&imgtype=0&src=http%3A%2F%2Fwww.2cto.com%2Fuploadfile%2FCollfiles%2F20160820%2F201608200935191530.png
 title: Spring Cloud连载（11）Feign的编码器与解码器
 tags:
 - 阿里云
@@ -16,6 +16,7 @@ tags:
 - 建站
 - 云服务器
 - Spring Cloud
+- Feign
 date:   2017-11-01 11:25:30
 ---
 

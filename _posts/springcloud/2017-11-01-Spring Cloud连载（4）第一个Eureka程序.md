@@ -16,6 +16,7 @@ tags:
 - 建站
 - 云服务器
 - Spring Cloud
+- eureka
 date:   2017-11-01 11:22:54
 ---
 

@@ -3,7 +3,7 @@ layout: blog
 istop: true
 jishu: true
 category: Spring Cloud
-background-image:
+background-image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509630308803&di=66e49512345ecca2a3b7007f702a63bb&imgtype=0&src=http%3A%2F%2Fimages2015.cnblogs.com%2Fblog%2F4758%2F201607%2F4758-20160701164510718-73468435.png
 title: Spring Cloud连载（10）客户端Feign介绍
 tags:
 - 阿里云
@@ -16,6 +16,7 @@ tags:
 - 建站
 - 云服务器
 - Spring Cloud
+- Feign
 date:   2017-11-01 11:25:20
 ---
 
