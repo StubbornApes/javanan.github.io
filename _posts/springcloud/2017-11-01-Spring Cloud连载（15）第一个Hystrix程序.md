@@ -3,7 +3,7 @@ layout: blog
 istop: true
 jishu: true
 category: Spring Cloud
-background-image:
+background-image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1510224935&di=9f3a08de5dadc9c282de3f02a7a003f6&imgtype=jpg&er=1&src=http%3A%2F%2Fs2.51cto.com%2Fwyfs02%2FM02%2F8E%2F8D%2FwKiom1jFACCx2lbgAAEWcb8v6-w59.jpeg-wh_651x-s_2509118232.jpeg
 title: Spring Cloud连载（15）第一个Hystrix程序
 tags:
 - 阿里云
