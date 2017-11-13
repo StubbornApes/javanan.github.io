@@ -65,12 +65,17 @@ Jekyll Themes
 修改_config.yml  的paginate 为您的按照多少页分页
 
 
-# 阿里云技术相关网站[阿里云](http://aliyun.guan2ye.com)
+# 阿里云技术相关网站[阿里云http://aliyun.guan2ye.com](http://aliyun.guan2ye.com)
+<br>
 
 ![阿里云技术相关网站](https://github.com/javanan/javanan.github.io/blob/master/thumbnails/aliyun.png?raw=true)
 
-# 我的博客地址[http://www.guan2ye.com](http://www.guan2ye.com)
-
-
+<br>
+<br>
 
 # 福利 **[点我获取阿里云优惠券https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld](https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld)**
+
+<br>
+<br>
+
+# 我的博客地址[http://www.guan2ye.com](http://www.guan2ye.com)
