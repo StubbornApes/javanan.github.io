@@ -29,13 +29,13 @@ Jekyll Themes
 轻量级 最小blog 
 第一步 点击[fork][6]
  
- [6]: https://github.com/Liberxue/liberxue.github.io#fork-destination-box
+ [6]: https://github.com/javanan/javanan.github.io#fork-destination-box
  
 ----
 
 ![fork操作][3]
 
-  [3]: https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/02.gif
+  [3]: https://github.com/javanan/javanan.github.io/blob/master/thumbnails/fork.gif?raw=true
   
 
 第二步 修改CNAME 为您的域名
