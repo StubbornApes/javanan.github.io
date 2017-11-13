@@ -1,9 +1,10 @@
-# liberxue.github.io demo https://liberxue.github.io/
+# javanan.github.io demo https://javanan.github.io/
 Jekyll Themes
 ----------
 ![uiliberxue][1]
 
-  [1]: https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/ui.jpg
+  [1]: https://github.com/javanan/javanan.github.io/blob/master/thumbnails/xx.png?raw=true
+
  
  ----------
 ![博客搜索][2]
