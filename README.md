@@ -9,7 +9,7 @@ Jekyll Themes
  ----------
 ![博客搜索][2]
 
-  [2]: https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/01.gif
+  [2]: https://github.com/javanan/javanan.github.io/blob/master/thumbnails/search.gif?raw=true
   
 ## Lightweight Minblog
 
