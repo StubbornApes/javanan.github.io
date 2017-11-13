@@ -7,6 +7,9 @@ Jekyll Themes
 
  
  ----------
+
+ # 搜索
+
 ![博客搜索][2]
 
   [2]: https://github.com/javanan/javanan.github.io/blob/master/thumbnails/search.gif?raw=true
@@ -42,7 +45,7 @@ Jekyll Themes
 
 ![修改CNAME][4]
 
-  [4]: https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/04.gif
+  [4]: https://github.com/javanan/javanan.github.io/blob/master/thumbnails/cname.gif?raw=true
   
 
 
@@ -50,7 +53,7 @@ Jekyll Themes
 
 ![修改_config.yml 中的url 为您的域名][5]
 
-  [5]: https://raw.githubusercontent.com/Liberxue/liberxue.github.io/master/thumbnails/04.gif
+  [5]: https://github.com/javanan/javanan.github.io/blob/master/thumbnails/url.gif?raw=true
   
 
 自动生成标签
@@ -60,5 +63,14 @@ Jekyll Themes
 自动生成分页
 修改_config.yml 的links 为您的菜单
 修改_config.yml  的paginate 为您的按照多少页分页
+
+
+# 阿里云技术相关网站[阿里云](http://aliyun.guan2ye.com)
+
+![阿里云技术相关网站][6]
+  [6]: https://github.com/javanan/javanan.github.io/blob/master/thumbnails/aliyun.png?raw=true
+
+# 我的博客地址[博客地址](http://www.guan2ye.com)
+
 
 
