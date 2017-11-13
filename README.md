@@ -67,12 +67,10 @@ Jekyll Themes
 
 # 阿里云技术相关网站[阿里云](http://aliyun.guan2ye.com)
 
-![阿里云技术相关网站][6]
-  [6]: https://github.com/javanan/javanan.github.io/blob/master/thumbnails/aliyun.png?raw=true
+![阿里云技术相关网站](https://github.com/javanan/javanan.github.io/blob/master/thumbnails/aliyun.png?raw=true)
 
-# 我的博客地址[博客地址](http://www.guan2ye.com)
-
+# 我的博客地址[http://www.guan2ye.com](http://www.guan2ye.com)
 
 
-# 福利
-# **[点我获取阿里云优惠券](https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld)**
+
+# 福利 **[点我获取阿里云优惠券https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld](https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld)**
