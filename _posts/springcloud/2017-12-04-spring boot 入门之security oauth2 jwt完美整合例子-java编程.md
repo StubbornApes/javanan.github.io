@@ -471,5 +471,19 @@ localhost:8081//resources/user?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 
 发布时间：`2017-04-04 23:00:56` 最后编辑：`2017-11-12 20:59:01`
 
-更新地址：[spring boot 入门之security oauth2 jwt完美整合例子-java编程](http://www.leftso.com/blog/139.html)
 
+
+# **[点我获取阿里云优惠券](https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld)**
+
+
+
+我的官网<http://guan2ye.com>
+我的CSDN地址<http://blog.csdn.net/chenjianandiyi>
+我的简书地址<http://www.jianshu.com/u/9b5d1921ce34>
+我的github<https://github.com/javanan>
+我的码云地址<https://gitee.com/jamen/>
+阿里云优惠券<https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld>
+# **[阿里云教程系列网站http://aliyun.guan2ye.com](http://aliyun.guan2ye.com)**
+![1.png](http://upload-images.jianshu.io/upload_images/2830896-5b23cf095c19945d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+# **[我的开源项目spring boot 搭建的一个企业级快速开发脚手架](https://gitee.com/jamen/slife)**
+![1.jpg](http://upload-images.jianshu.io/upload_images/2830896-66de965f818533c5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
