@@ -19,12 +19,12 @@ links:
   - name:         书籍
     url:          /book
     external:     false
-  - name:         旅游
-    url:          /road
-    external:     false
-  - name:         福利
-    url:          /fuli
-    external:     false
+  - name:         个人开源项目
+    url:          https://gitee.com/jamen/slife
+    external:     true
+  - name:         阿里云福利
+    url:          http://aliyun.guan2ye.com/
+    external:     true
   - name:         归档
     url:          /archives
     external:     false
