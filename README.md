@@ -73,7 +73,7 @@ Jekyll Themes
 <br>
 <br>
 
-# 福利 **[点我获取阿里云优惠券https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld](https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld)**
+# 福利 **[点我获取阿里云优惠券https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=9ytvzpwr](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=9ytvzpwr)**
 
 <br>
 <br>

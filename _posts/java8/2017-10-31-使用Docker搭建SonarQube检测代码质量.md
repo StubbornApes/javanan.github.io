@@ -100,7 +100,7 @@ mvn sonar:sonar
 
 # 10、本文检测的项目叫 SLife 是一个使用spring boot、shiro、SiteMesh、Mysql、Redis、Boostrap（inspinia）、Mybatis（Mybatis plus）搭建的一个企业级快速开发项目。可以到我的github或者码云中获取源代码，
 
-#  **[小福利：点我获取阿里云优惠券](https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld)**
+#  **[小福利：点我获取阿里云优惠券](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=9ytvzpwr)**
 
 
 我的官网<http://guan2ye.com>
@@ -108,4 +108,4 @@ mvn sonar:sonar
 我的简书地址<http://www.jianshu.com/u/9b5d1921ce34>
 我的github<https://github.com/javanan>
 我的码云地址<https://gitee.com/jamen/>
-阿里云优惠券<https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld>
+阿里云优惠券<https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=9ytvzpwr>

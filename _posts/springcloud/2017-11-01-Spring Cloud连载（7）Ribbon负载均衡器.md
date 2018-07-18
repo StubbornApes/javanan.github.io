@@ -21,7 +21,7 @@ tags:
 date:   2017-11-01 11:24:40
 ---
 
-# **[本站小福利 点我获取阿里云优惠券](https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld)**
+# **[本站小福利 点我获取阿里云优惠券](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=9ytvzpwr)**
 
 原文作者：杨大仙的程序空间
 
@@ -339,7 +339,7 @@ public class MyPing implements IPing {
 
 我的码云地址<https://gitee.com/jamen/>
 
-阿里云优惠券<https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld>
+阿里云优惠券<https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=9ytvzpwr>
 
 
 

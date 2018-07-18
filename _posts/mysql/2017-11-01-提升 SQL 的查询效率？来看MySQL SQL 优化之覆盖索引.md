@@ -15,7 +15,7 @@ tags:
 date:   2017-11-01 9:25:54
 ---
 
-# **[本站福利 点我获取阿里云优惠券](https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld)**
+# **[本站福利 点我获取阿里云优惠券](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=9ytvzpwr)**
 
 > 利用索引提升 SQL 的查询效率是我们经常使用的一个技巧，但是有些时候 MySQL 给出的执行计划却完全出乎我们的意料，我们预想 MySQL 会通过索引扫描完成查询，但是 MySQL 给出的执行计划却是通过全表扫描完成查询的，其中的某些场景我们可以利用覆盖索引进行优化。
 
@@ -116,7 +116,7 @@ ALTER TABLE `t_order`ADD INDEX `idx_ordercode_orderamount` USING BTREE (`order_c
 > my.oschina.net/loujinhe/blog/1528233
 
 
-# **[本站小福利 点我获取阿里云优惠券](https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld)**
+# **[本站小福利 点我获取阿里云优惠券](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=9ytvzpwr)**
 
 我的官网
 ![我的博客](https://github.com/javanan/javanan.github.io/blob/master/style/images/slifelogo.png?raw=true)
@@ -131,5 +131,5 @@ ALTER TABLE `t_order`ADD INDEX `idx_ordercode_orderamount` USING BTREE (`order_c
 
 我的码云地址<https://gitee.com/jamen/>
 
-阿里云优惠券<https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld>
+阿里云优惠券<https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=9ytvzpwr>
 

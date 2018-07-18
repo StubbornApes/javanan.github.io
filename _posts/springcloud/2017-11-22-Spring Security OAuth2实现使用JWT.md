@@ -359,7 +359,7 @@ public JwtAccessTokenConverter accessTokenConverter() {
 放弃吧~~~~~~
 
 
-# **[博客福利：点我获取阿里云优惠券](https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=vf2b5zld&utm_source=vf2b5zld)**
+# **[博客福利：点我获取阿里云优惠券](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=9ytvzpwr)**
 
 
 # **[阿里云教程系列网站http://aliyun.guan2ye.com](http://aliyun.guan2ye.com)**
