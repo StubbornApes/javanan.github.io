@@ -16,12 +16,6 @@ links:
   - name:         技术
     url:          /jishu
     external:     false
-  - name:         java
-    external:     false
-    url:          /
-    - name:        java
-      url:         /jishu
-      external:    false
   - name:         pringCloud系列
     url:          /springcloud
     external:     false
