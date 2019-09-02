@@ -19,6 +19,9 @@ links:
   - name:         SpringCloud系列
     url:          /springcloud
     external:     false
+  - name:         Java并发系列
+    url:          /javacurrency
+    external:     false
   - name:         书籍
     url:          /book
     external:     false
