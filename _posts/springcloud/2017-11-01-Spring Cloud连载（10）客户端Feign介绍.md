@@ -20,7 +20,7 @@ tags:
 date:   2017-11-01 11:25:20
 ---
 
-# **[本站小福利 点我获取阿里云优惠券](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=9ytvzpwr)**
+# **[本站小福利 点我获取阿里云优惠券](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=vf2b5zld)**
 
 原文作者：杨大仙的程序空间
 
@@ -333,7 +333,7 @@ public class PersonMain {
 
 我的码云地址<https://gitee.com/jamen/>
 
-阿里云优惠券<https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=9ytvzpwr>
+阿里云优惠券<https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=vf2b5zld>
 
 
 

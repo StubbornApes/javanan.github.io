@@ -105,7 +105,7 @@ $ docker run -v /myredis/conf/redis.conf:/usr/local/etc/redis/redis.conf --name 
 
 直接使用 阿里云或者腾讯云的 云redis就好了，功能齐全并且强大稳定。我们现在的项目也是使用了他们的。
 两者的 优惠券
-[阿里云Redis https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=9ytvzpwr](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=9ytvzpwr)
+[阿里云Redis https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=vf2b5zld](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=vf2b5zld)
 
 
 [腾讯云的优惠购买地址
@@ -120,7 +120,7 @@ https://cloud.tencent.com/redirect.php?redirect=1005&cps_key=1cdaea7b77fe67188b1
 我的简书地址<http://www.jianshu.com/u/9b5d1921ce34>
 我的github<https://github.com/javanan>
 我的码云地址<https://gitee.com/jamen/>
-阿里云优惠券<https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=9ytvzpwr>
+阿里云优惠券<https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=vf2b5zld>
 # **[阿里云教程系列网站http://aliyun.guan2ye.com](http://aliyun.guan2ye.com)**
 ![1.png](http://upload-images.jianshu.io/upload_images/2830896-5b23cf095c19945d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 # **[我的开源项目spring boot 搭建的一个企业级快速开发脚手架](https://gitee.com/jamen/slife)**

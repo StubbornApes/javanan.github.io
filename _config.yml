@@ -16,6 +16,11 @@ links:
   - name:         技术
     url:          /jishu
     external:     false
+  - name:         java
+    external:     true
+    - name:        java
+      url:          /jishu
+      external:     false
   - name:         书籍
     url:          /book
     external:     false
