@@ -18,6 +18,7 @@ links:
     external:     false
   - name:         java
     external:     false
+    url:          /
     - name:        java
       url:         /jishu
       external:    false
