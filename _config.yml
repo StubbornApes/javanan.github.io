@@ -19,8 +19,8 @@ links:
   - name:         java
     external:     false
     - name:        java
-      url:          /jishu
-      external:     false
+      url:         /jishu
+      external:    false
   - name:         书籍
     url:          /book
     external:     false
