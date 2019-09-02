@@ -1,7 +1,7 @@
 ---
 layout: blog
 istop: true
-jishu: true
+springcloud: true
 category: Spring Cloud
 background-image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509630308804&di=f7760a3abbdb1efb8837ddfc4dcc6453&imgtype=0&src=http%3A%2F%2Fwww.2cto.com%2Fuploadfile%2FCollfiles%2F20160820%2F201608200935191530.png
 title: Spring Cloud连载（11）Feign的编码器与解码器

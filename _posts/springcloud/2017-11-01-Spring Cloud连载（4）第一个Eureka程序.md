@@ -1,7 +1,7 @@
 ---
 layout: blog
 istop: true
-jishu: true
+springcloud: true
 category: Spring Cloud
 background-image: https://static.oschina.net/uploads/space/2017/0925/211656_jMKn_3665821.png
 title: Spring Cloud连载（4）第一个Eureka程序

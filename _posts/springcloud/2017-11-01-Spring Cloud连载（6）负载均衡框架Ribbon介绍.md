@@ -1,7 +1,7 @@
 ---
 layout: blog
 istop: true
-jishu: true
+springcloud: true
 category: Spring Cloud
 background-image: https://static.oschina.net/uploads/space/2017/1008/093307_TUIj_3665821.png
 title: Spring Cloud连载（6）负载均衡框架Ribbon介绍

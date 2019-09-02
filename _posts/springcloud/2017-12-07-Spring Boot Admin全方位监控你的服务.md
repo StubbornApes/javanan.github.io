@@ -1,7 +1,7 @@
 ---
 layout: blog
 istop: true
-jishu: true
+springcloud: true
 category: Spring Boot Admin
 background-image: http://upload-images.jianshu.io/upload_images/44770-415b947617b5b89f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700
 title: Spring Boot Admin 全方位监控你的微服务

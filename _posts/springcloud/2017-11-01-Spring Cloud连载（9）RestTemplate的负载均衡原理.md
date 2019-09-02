@@ -1,7 +1,7 @@
 ---
 layout: blog
 istop: true
-jishu: true
+springcloud: true
 category: Spring Cloud
 background-image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509630308802&di=f0523fd8eadfe2d5cd6316499ce13e0c&imgtype=0&src=http%3A%2F%2Fwww.uml.org.cn%2Fzjjs%2Fimages%2F201703290502.jpg
 title: Spring Cloud连载（9）RestTemplate的负载均衡原理

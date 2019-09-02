@@ -1,7 +1,7 @@
 ---
 layout: blog
 istop: true
-jishu: true
+springcloud: true
 category: Spring Cloud
 background-image: http://blog.springcloud.cn/images/sc-lx/slueth.png
 title: Spring Cloud微服务升级总结

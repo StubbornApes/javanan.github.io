@@ -1,7 +1,7 @@
 ---
 layout: blog
 istop: true
-jishu: true
+springcloud: true
 category: Spring Cloud
 background-image: https://static.oschina.net/uploads/space/2017/0928/222149_E10z_3665821.png
 title: Spring Cloud连载（5）Eureka集群搭建

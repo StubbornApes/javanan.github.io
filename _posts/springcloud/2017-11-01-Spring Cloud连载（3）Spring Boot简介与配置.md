@@ -1,7 +1,7 @@
 ---
 layout: blog
 istop: true
-jishu: true
+springcloud: true
 category: Spring Cloud
 background-image: https://static.oschina.net/uploads/space/2017/0925/110711_mIXI_3665821.png
 title: Spring Cloud连载（3）Spring Boot简介与配置

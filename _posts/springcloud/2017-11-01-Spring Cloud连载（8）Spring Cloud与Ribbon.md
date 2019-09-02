@@ -1,7 +1,7 @@
 ---
 layout: blog
 istop: true
-jishu: true
+springcloud: true
 category: Spring Cloud
 background-image: https://static.oschina.net/uploads/space/2017/1014/155334_asbK_3665821.png
 title: Spring Cloud连载（8）Spring Cloud与Ribbon

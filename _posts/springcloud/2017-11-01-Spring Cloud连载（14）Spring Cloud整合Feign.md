@@ -1,7 +1,7 @@
 ---
 layout: blog
 istop: true
-jishu: true
+springcloud: true
 category: Spring Cloud
 background-image: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509630228390&di=b22388d5c3d419deda784ea6f30e709f&imgtype=0&src=http%3A%2F%2Fpic.92to.com%2F201707%2F24%2F106612529_3.jpg
 title: Spring Cloud连载（14）Spring Cloud整合Feign

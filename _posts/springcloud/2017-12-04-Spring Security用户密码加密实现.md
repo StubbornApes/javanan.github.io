@@ -1,7 +1,7 @@
 ---
 layout: blog
 istop: true
-jishu: true
+springcloud: true
 category: Spring Cloud
 background-image: http://static.dexcoder.com/images/201649/xSRBfEgGOtwnEaAs.png
 title: Spring Security用户密码加密实现

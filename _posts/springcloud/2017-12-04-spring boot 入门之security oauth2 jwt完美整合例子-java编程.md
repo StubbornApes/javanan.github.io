@@ -1,7 +1,7 @@
 ---
 layout: blog
 istop: true
-jishu: true
+springcloud: true
 category: Spring Cloud
 background-image: http://blog.springcloud.cn/images/sc-lx/slueth.png
 title: spring security oauth2框架整合的例子

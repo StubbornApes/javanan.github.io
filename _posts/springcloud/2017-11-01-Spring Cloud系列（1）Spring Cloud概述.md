@@ -1,7 +1,7 @@
 ---
 layout: blog
 istop: true
-jishu: true
+springcloud: true
 background-image: https://static.oschina.net/uploads/space/2017/0924/095718_XMPj_3665821.png
 category: Spring Cloud
 title: Spring Cloud系列（1）Spring Cloud概述
