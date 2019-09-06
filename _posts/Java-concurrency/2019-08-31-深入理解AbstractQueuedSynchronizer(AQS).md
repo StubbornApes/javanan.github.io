@@ -20,7 +20,7 @@ tags:
 - AQS
 - AbstractQueuedSynchronizer
 - Lock
-date:   2019-08-31 11:11:54
+date:   2019-08-31 11:11:09
 ---
 
 # **[本站小福利 点我获取阿里云优惠券](https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=vf2b5zld)**
@@ -37,7 +37,11 @@ date:   2019-08-31 11:11:54
 
 # 1. AQS简介
 
-在[上一篇文章](http://www.guan2ye.com/2019/08/31/初识Lock与AbstractQueuedSynchronizer(AQS).html)中我们对lock和AbstractQueuedSynchronizer(AQS)有了初步的认识。在同步组件的实现中，AQS是核心部分，同步组件的实现者通过使用AQS提供的模板方法实现同步组件语义，AQS则实现了对**同步状态的管理，以及对阻塞线程进行排队，等待通知**等等一些底层的实现处理。AQS的核心也包括了这些方面:**同步队列，独占式锁的获取和释放，共享锁的获取和释放以及可中断锁，超时等待锁获取这些特性的实现**，而这些实际上则是AQS提供出来的模板方法，归纳整理如下：
+在[上一篇文章](http://www.guan2ye.com/2019/08/31/初识Lock与AbstractQueuedSynchronizer(AQS).html)
+中我们对lock和AbstractQueuedSynchronizer(AQS)有了初步的认识。在同步组件的实现中，AQS是核心部分，
+同步组件的实现者通过使用AQS提供的模板方法实现同步组件语义，AQS则实现了对**同步状态的管理，以及对阻塞线程进行排队，
+等待通知**等等一些底层的实现处理。AQS的核心也包括了这些方面:**同步队列，独占式锁的获取和释放，共享锁的获取和释放以及可中断锁，
+超时等待锁获取这些特性的实现**，而这些实际上则是AQS提供出来的模板方法，归纳整理如下：
 
 **独占式锁：**
 
@@ -53,10 +57,13 @@ date:   2019-08-31 11:11:54
 > boolean releaseShared(int arg)：共享式释放同步状态
 
 
-要想掌握AQS的底层实现，其实也就是对这些模板方法的逻辑进行学习。在学习这些模板方法之前，我们得首先了解下AQS中的同步队列是一种什么样的数据结构，因为同步队列是AQS对同步状态的管理的基石。
+要想掌握AQS的底层实现，其实也就是对这些模板方法的逻辑进行学习。在学习这些模板方法之前，我们得首先了解下AQS中的同步队列是一种什么样的数据结构，
+因为同步队列是AQS对同步状态的管理的基石。
 
 # 2. 同步队列 #
-当共享资源被某个线程占有，其他请求该资源的线程将会阻塞，从而进入同步队列。就数据结构而言，队列的实现方式无外乎两者一是通过数组的形式，另外一种则是链表的形式。AQS中的同步队列则是**通过链式方式**进行实现。接下来，很显然我们至少会抱有这样的疑问：**1. 节点的数据结构是什么样的？2. 是单向还是双向？3. 是带头结点的还是不带头节点的？**我们依旧先是通过看源码的方式。
+当共享资源被某个线程占有，其他请求该资源的线程将会阻塞，从而进入同步队列。就数据结构而言，队列的实现方式无外乎两者一是通过数组的形式，
+另外一种则是链表的形式。AQS中的同步队列则是**通过链式方式**进行实现。接下来，很显然我们至少会抱有这样的疑问：**1. 节点的数据结构是什么样的？
+2. 是单向还是双向？3. 是带头结点的还是不带头节点的？**我们依旧先是通过看源码的方式。
 
 在AQS有一个静态内部类Node，其中有这样一些属性：
 
@@ -99,7 +106,7 @@ date:   2019-08-31 11:11:54
 实例代码中开启了5个线程，先获取锁之后再睡眠10S中，实际上这里让线程睡眠是想模拟出当线程无法获取锁时进入同步队列的情况。通过debug，当Thread-4（在本例中最后一个线程）获取锁失败后进入同步时，AQS时现在的同步队列如图所示：
 
 
-![LockDemo debug下 .png](http://upload-images.jianshu.io/upload_images/2615789-d05d3f44ce4c205a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![LockDemo debug下 .png](https://github.com/CL0610/Java-concurrency/blob/master/09.%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3AbstractQueuedSynchronizer(AQS)/LockDemo%20debug%E4%B8%8B.png?raw=true)
 
 
 Thread-0先获得锁后进行睡眠，其他线程（Thread-1,Thread-2,Thread-3,Thread-4）获取锁失败进入同步队列，同时也可以很清楚的看出来每个节点有两个域：prev(前驱)和next(后继)，并且每个节点用来保存获取同步状态失败的线程引用以及等待状态等信息。另外AQS中有两个重要的成员变量：
@@ -111,7 +118,7 @@ Thread-0先获得锁后进行睡眠，其他线程（Thread-1,Thread-2,Thread-3,
 
 
 
-![队列示意图.png](http://upload-images.jianshu.io/upload_images/2615789-dbfc975d3601bb52.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![队列示意图.png](https://github.com/CL0610/Java-concurrency/blob/master/09.%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3AbstractQueuedSynchronizer(AQS)/%E9%98%9F%E5%88%97%E7%A4%BA%E6%84%8F%E5%9B%BE.png?raw=true)
 
 
 
@@ -220,7 +227,7 @@ Thread-0先获得锁后进行睡眠，其他线程（Thread-1,Thread-2,Thread-3,
 程序逻辑通过注释已经标出，整体来看这是一个这又是一个自旋的过程（for (;;)），代码首先获取当前节点的先驱节点，**如果先驱节点是头结点的并且成功获得同步状态的时候（if (p == head && tryAcquire(arg))），当前节点所指向的线程能够获取锁**。反之，获取锁失败进入等待状态。整体示意图为下图：
 
 
-![自旋获取锁整体示意图.png](http://upload-images.jianshu.io/upload_images/2615789-3fe83cfaf03a02c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![自旋获取锁整体示意图.png](https://github.com/CL0610/Java-concurrency/blob/master/09.%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3AbstractQueuedSynchronizer(AQS)/%E8%87%AA%E6%97%8B%E8%8E%B7%E5%8F%96%E9%94%81%E6%95%B4%E4%BD%93%E7%A4%BA%E6%84%8F%E5%9B%BE.png?raw=true)
 
 
 > **获取锁成功，出队操作**
@@ -248,7 +255,7 @@ setHead()方法为：
 
 
 
-![当前节点引用线程获取锁，当前节点设置为队列头结点.png](http://upload-images.jianshu.io/upload_images/2615789-13963e1b3bcfe656.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![当前节点引用线程获取锁，当前节点设置为队列头结点.png](https://github.com/CL0610/Java-concurrency/blob/master/09.%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3AbstractQueuedSynchronizer(AQS)/%E5%BD%93%E5%89%8D%E8%8A%82%E7%82%B9%E5%BC%95%E7%94%A8%E7%BA%BF%E7%A8%8B%E8%8E%B7%E5%8F%96%E9%94%81%EF%BC%8C%E5%BD%93%E5%89%8D%E8%8A%82%E7%82%B9%E8%AE%BE%E7%BD%AE%E4%B8%BA%E9%98%9F%E5%88%97%E5%A4%B4%E7%BB%93%E7%82%B9.png?raw=true)
 
 
 那么当获取锁失败的时候会调用shouldParkAfterFailedAcquire()方法和parkAndCheckInterrupt()方法，看看他们做了什么事情。shouldParkAfterFailedAcquire()方法源码为：
@@ -302,7 +309,7 @@ shouldParkAfterFailedAcquire()方法主要逻辑是使用`compareAndSetWaitStatu
 
 
 
-![独占式锁获取（acquire()方法）流程图.png](http://upload-images.jianshu.io/upload_images/2615789-a0d913dc40da5629.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![独占式锁获取（acquire()方法）流程图.png](https://github.com/CL0610/Java-concurrency/blob/master/09.%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3AbstractQueuedSynchronizer(AQS)/%E7%8B%AC%E5%8D%A0%E5%BC%8F%E9%94%81%E8%8E%B7%E5%8F%96%EF%BC%88acquire()%E6%96%B9%E6%B3%95%EF%BC%89%E6%B5%81%E7%A8%8B%E5%9B%BE.png?raw=true)
 
 
 ## 3.2 独占锁的释放（release()方法） ##
@@ -466,7 +473,7 @@ shouldParkAfterFailedAcquire()方法主要逻辑是使用`compareAndSetWaitStatu
 
 程序逻辑如图所示：
 
-![超时等待式获取锁（doAcquireNanos()方法）](http://upload-images.jianshu.io/upload_images/2615789-a80779d4736afb87.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![超时等待式获取锁（doAcquireNanos()方法）](https://github.com/CL0610/Java-concurrency/blob/master/09.%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3AbstractQueuedSynchronizer(AQS)/%E8%B6%85%E6%97%B6%E7%AD%89%E5%BE%85%E5%BC%8F%E8%8E%B7%E5%8F%96%E9%94%81%EF%BC%88doAcquireNanos()%E6%96%B9%E6%B3%95%EF%BC%89.png?raw=true)
 
 
 
